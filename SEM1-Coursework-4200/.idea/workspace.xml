@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac82c459-f7a6-4c0e-94f0-0183b7f1234d" name="Changes" comment="">
+    <list default="true" id="ac82c459-f7a6-4c0e-94f0-0183b7f1234d" name="Changes" comment="Backup">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +90,18 @@
       <workItem from="1729519472286" duration="67000" />
       <workItem from="1729519863821" duration="26000" />
       <workItem from="1729534837062" duration="67000" />
+      <workItem from="1729589191841" duration="67000" />
+      <workItem from="1729590718194" duration="451000" />
     </task>
+    <task id="LOCAL-00001" summary="Backup">
+      <option name="closed" value="true" />
+      <created>1729589245799</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729589245799</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +117,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Backup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Backup" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

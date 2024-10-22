@@ -1,4 +1,4 @@
-import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.Scanner;
 import java.io.FileReader;
 
@@ -7,7 +7,8 @@ public class Main {
 	private static final double defaultTaxRate = 0.20; // 20%
 	public static final String fileName = "rooms.txt";
 	
-	public static void main(String[] args) throws FileNotFoundException {
+	public static void main(String[] args)
+		throws IOException {
 		FileReader fileStream = new FileReader(fileName);
 		Scanner fileReader = new Scanner(fileStream);
 		
@@ -47,7 +48,6 @@ public class Main {
 			
 			totalIncome += income;
 			totalTax += tax;
-			
 			
 			System.out.printf("Room Type : %s, Bookings : %d, Room Price : £%.2f, Income : £%.2f, Tax : £%.2f\n",
 				roomType, bookings, roomPrice, income, tax);
